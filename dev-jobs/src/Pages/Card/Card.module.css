@@ -1,0 +1,21 @@
+.products{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 15px;
+}
+.products .block{
+    width: 470px;
+    height: 270px;
+    margin-top: 10px;
+    background-color: #dad1d1;
+    border-radius: 15px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-family: "Open Sans", sans-serif;
+}

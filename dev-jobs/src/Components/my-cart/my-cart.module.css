@@ -1,0 +1,125 @@
+/* my-cart.module.css */
+
+.card_content {
+    position: relative;
+    width: 250px;
+    height: 335px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    margin-top: 10px;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .editButtons {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    background-color: rgb(227, 226, 226);
+    border-radius: 10px;
+    opacity: 0;
+    transition: all 0.15s ease-in-out;
+  }
+
+.card_content:hover .editButtons {
+    opacity: 1; /* При наведении делаем иконки видимыми */
+}
+
+  
+  .card_item {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .root_1 {
+    width: 170px;
+    height: 55%;
+    display: flex;
+    align-items: start;
+    margin-top: -30px;
+  }
+  
+  .root_1 img {
+    width: 170px;
+    height: 170px;
+  }
+  
+  .root_2 {
+    width: 210px;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .item_btns {
+    width: 215px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+  }
+  
+  .item_btn {
+    min-width: 85px;
+    height: 22px;
+    color: #fff;
+    border-radius: 9px;
+    border: none;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(207, 8, 177);
+  }
+  
+  .item_btn2 {
+    width: 95px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 6px;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    background: linear-gradient(99.02deg, rgb(255, 132, 0) 26.76%, rgb(253, 0, 0) 90.73%);
+  }
+  
+  .root_2 .title {
+    width: 230px;
+    border: none;
+    border-radius: 5px;
+    background-color: #DBDBDB;
+    color: #202020;
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+  }
+  
+  .icon_user {
+    width: 100%;
+    height: 40px;
+    padding-left: 5px;
+    padding-top: 5px;
+  }
+  
+  .icon_block {
+    width: 100%;
+    height: 90px;
+  }
+  

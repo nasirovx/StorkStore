@@ -1,0 +1,182 @@
+.products{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 15px;
+} 
+  .block {
+    width: 470px;
+    height: 270px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .block::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://wookie.com.ua/content/images/1/5-naykrashchikh-smartfoniv-2023-roku-yaki-mozhna-kupiti-v-ukraini-20015355873968_small4.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.8) saturate(110%);
+    transition: transform 0.3s ease;
+  }
+  
+  .block:hover::before {
+    transform: scale(1.05);
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1;
+  }
+  
+  .overlay h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  }
+  .overlay h3 {
+    font-size: 23px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  }
+  
+  .button {
+    padding: 14px 28px;
+    font-size: 20px;
+    background-color: #007bff;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  .block2 {
+    width: 470px;
+    height: 270px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .block2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://pierrecardin.com.ua/upload/resize_cache/webp/iblock/2f7/94pk2nsrhv1r8f3xslb7tmoaubj5434r.webp");
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.8) saturate(110%);
+    transition: transform 0.3s ease;
+  }
+  
+  .block2:hover::before {
+    transform: scale(1.05);
+  }
+.products .big_block {
+    width: 100%;
+    height: 500px; /* Примерная высота блока, можно настроить по желанию */
+    position: relative;
+    overflow: hidden;
+}
+
+.background_image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaizNHrYoh8pDBKvaJTwio-pmtBdVXDV2MY34Wx7C4LvwP9ixARsIhd4EPLn1Ezodj07M&usqp=CAU');
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px);
+}
+
+.content_wrapper {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.product_image {
+    width: 50%; /* Примерная ширина изображения, можно настроить по желанию */
+    height: auto;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.ad_content {
+    text-align: left;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Прозрачный белый фон */
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.ad_title {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.ad_description {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.ad_button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff5733;
+    color: white;
+    font-size: 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.ad_button:hover {
+    background-color: #ff1f00;
+}
+
+.post_title{
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+  color: rgb(255, 47, 0);
+  font-weight: 600;
+}
+.post{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 15px;
+}

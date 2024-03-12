@@ -1,0 +1,725 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "iPhone 12",
+            "description": "The iPhone 12, featuring a stunning 6.1-inch Super Retina XDR display, A14 Bionic chip, and advanced dual-camera system.",
+            "price": 749,
+            "rating": 4.69,
+            "installment": "0.0.24",
+            "planprice": "120",
+            "brand": "Apple",
+            "category": "smartphones",
+            "images": [
+                "https://avatars.mds.yandex.net/get-marketpic/8615618/picbed33b02f3a2e01d8d3467ddf8ab1821/orig",
+                "https://jabko.ua/image/cache/catalog/products/2022/04/081412/iphone-12-white-select-2020-max-420.jpg.webp",
+                "https://smart-sila.ru/images/thumbnails/2560/1792/detailed/9/iPhone-12-colors-scaled__1__58mg-o5.jpeg",
+                "https://a.allegroimg.com/original/112ecd/b2e9cd414066a759112964d182aa/Etui-do-iPhone-12-Mini-Spigen-Ultra-Hybrid-cover-Kolor-inny"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "iPhone 13",
+            "description": "The iPhone 13 with a 6.1-inch Super Retina XDR display, A15 Bionic chip, and Cinematic mode for stunning video recording.",
+            "price": 899,
+            "rating": 4.44,
+            "brand": "Apple",
+            "category": "smartphones",
+            "images": [
+                "https://avatars.mds.yandex.net/i?id=37e5b29e10e189a6cb6d81f48fe49225fcc99145-4888906-images-thumbs&n=13",
+                "https://s2.glbimg.com/XtkKLqLNPzcj7AkJ9uPYU0q6KTw%3D/0x0:1260x912/984x0/smart/filters:strip_icc%28%29/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/B/t/yfRL6MTZiaJdcb5SVdkQ/iphones12e13-2.jpg",
+                "https://avatars.mds.yandex.net/get-mpic/1605421/img_id7332322283322094500.jpeg/orig",
+                "https://netrinoimages.s3.eu-west-2.amazonaws.com/2017/05/28/453344/353184/apple_iphone_13_stl_3d_model_c4d_max_obj_fbx_ma_lwo_3ds_3dm_stl_3686555_o.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "iPhone 15",
+            "description": "Introducing the iPhone 15 with a revolutionary Dynamic Island design and the powerful A17 Bionic chip.",
+            "price": 1249,
+            "rating": 4.09,
+            "brand": "Apple",
+            "category": "tablets",
+            "images": [
+                "data:image/jpeg;base64,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",
+                "https://blog.eldorado.ru/storage/publication/AaBkpicZ1BZMy23eZGN91ZDsZxwRXZQHrLd77So9.png",
+                "https://istore38.ru/storage/images/14/006bWoNYly1hfyn9hpq0sj310g0kidhp_large.jpg",
+                "https://doska.ykt2.ru/files/2024-02-19/EKR2Gq7P.jpeg"
+            ]
+        },
+        {
+            "id": 4,
+            "title": "MacBook Pro",
+            "description": "The MacBook Pro 2021 with a stunning mini-LED display, powerful M1 Pro chip, and enhanced performance for professionals.",
+            "price": 1749,
+            "rating": 4.57,
+            "installment": "0.0.24",
+            "planprice": "120",
+            "brand": "Apple",
+            "category": "laptops",
+            "images": [
+                "https://asiastore.kg/image/cache/catalog/mac/macbookpro1416m2promax/silver/mbp16-silver-select-202301-450x450.jpeg",
+                "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/MacBook_Pro_concept_white.jpg",
+                "https://wanderlustpulse.com/wp-content/uploads/2021/11/Apple-M1-Max-Macbook-Pro-16-scaled.jpg",
+                "https://ipowermacpro.com/822/short-manufacturmacbook-pro-15-2019-core-i9-24ghz-32-go-ram-2-to-ssd-amd-vega-pro-20-349900.jpg"
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Samsung Galaxy Book",
+            "description": "The Samsung Galaxy Book S (2020) Laptop featuring an Intel Lakefield Chip, 8GB of RAM, and a sleek, lightweight design.",
+            "price": 1499,
+            "rating": 4.25,
+            "installment": "0.0.24",
+            "planprice": "120",
+            "brand": "Samsung",
+            "category": "smartphones",
+            "images": [
+                "https://cdn.samsungstore.ru/iblock/a6e/a6eb0fb80bf43c0ac53cc5e9197dcb8b/d4dc3ce285d98b37d2515a2d1de6d69a.jpg",
+                "https://avatars.mds.yandex.net/get-mpic/6253235/img_id5884298721562194700.jpeg/orig",
+                "https://i.ebayimg.com/00/s/MTA4OFgxNTAw/z/8hgAAOSwoWRjY9wO/$_57.JPG?set_id=880000500F",
+                "https://i.ebayimg.com/images/g/yv4AAOSwBiBfA9WG/s-l1600.jpg"
+            ]
+        },
+        {
+            "id": 6,
+            "title": "MacBook Air M2",
+            "description": "Style meets performance with the MacBook Air M2. Stand out on HD video calls and capture ideas on the vibrant touchscreen.",
+            "price": 1499,
+            "rating": 4.43,
+            "installment": "0.0.24",
+            "planprice": "120",
+            "brand": "Apple",
+            "category": "laptops",
+            "images": [
+                "https://login.kg/image/cache/catalog/new/Notebook/Apple/MacBook%20Air%2015%202023/2-500x400.jpg",
+                "https://appleinsider.ru/wp-content/uploads/2022/06/magsafe_2022.jpg",
+                "https://ios.im/usr/uploads/lantian/2022/07/2cb603f12b6e5e9efd373e037cb34dd5.jpg",
+                "https://staticg.sportskeeda.com/editor/2022/06/dd01a-16548380032855-1920.jpg"
+            ]
+        },
+        {
+            "id": 7,
+            "title": "iPad 2023",
+            "description": "The iPad 2023 combines style and speed. Stand out on HD video calls backed by Studio Mics and capture ideas on the vibrant touchscreen.",
+            "price": 1499,
+            "topprice": 1099,
+            "discountPercentage": "26.48",
+            "rating": 4.43,
+            "installment": "0.0.24",
+            "planprice": "120",
+            "brand": "Apple",
+            "category": "tablets",
+            "images": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCcKOhemEKPqjGgRzsYbEYKxW_OdSaMppIjSdNuCvuYEo7xPvsfn4-k6mCx2EZsp3hKeM&usqp=CAU",
+                "https://www.actualidadiphone.com/wp-content/uploads/2021/05/iPad-Pro-03.jpg",
+                "https://cdn.mos.cms.futurecdn.net/Cd5Rmw3gfK54DrHRBPTVid.jpg",
+                "https://media.sketchfab.com/models/6a7c62f8315a438494b3283544fcfaa6/thumbnails/a26d2e84353945029fb776a346691cfc/20db0aaf9ac645f1801160c88a7c2249.jpeg"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "iPad Mini",
+            "description": "Compact yet powerful, the iPad Mini is perfect for on-the-go creativity. Enjoy Studio Mics for HD video calls and a vibrant touchscreen.",
+            "price": 1499,
+            "rating": 4.43,
+            "brand": "Apple",
+            "category": "tablets",
+            "images": [
+                "https://i.etsystatic.com/26059596/r/il/25f108/3855779678/il_570xN.3855779678_okqt.jpg",
+                "https://www.iphon.fr/app/uploads/2021/10/test-ipad-mini-6-copie.jpg",
+                "https://www.sizescreens.com/wp-content/uploads/2021/11/Apple-iPad-mini-2021-screen.jpg",
+                "https://appleshop52.ru/upload/iblock/391/391a37948e109104fc9fcb8574394a73.jpg"
+            ]
+        },
+        {
+            "id": 9,
+            "title": "Tab 8 Ultra 5G",
+            "description": "Experience style and speed with the Tab 8 Ultra 5G. HD video calls, Studio Mics, and vibrant touchscreen for capturing ideas.",
+            "price": 1499,
+            "rating": 4.43,
+            "installment": "0.0.24",
+            "planprice": "120",
+            "brand": "Samsung",
+            "category": "tablets",
+            "images": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHrsxrVBfdwkHrXg0jtXEf7ukv2npHMn7Os9iQqAqD2EqSNm3SfmEZgfFXa_RodCS9byM&usqp=CAU",
+                "https://mews.biggeek.ru/wp-content/uploads/2022/03/grnyueyearvycdrxfn3r5y-2048x1152.jpg",
+                "https://r1.community.samsung.com/t5/image/serverpage/image-id/4512258i70A0759E3E6E71AC?v=v2",
+                "https://assets-prd.ignimgs.com/2022/02/09/samsung-galaxy-tab-s8-ultra-1-1644416642043.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "Jacket",
+            "description": "Stay warm and stylish with this trendy jacket. Perfect for any occasion, it's a must-have in your wardrobe.",
+            "price": 1499,
+            "topprice": 1099,
+            "discountPercentage": "26",
+            "rating": 4.43,
+            "brand": "Nike",
+            "category": "outwear",
+            "images": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW_3RsZORaf31fgEvPvo4WMREUEzk9W8Jt-t1SWXKdTTT3Kuzoe4DLc0eTpZOg2lrVOaY&usqp=CAU",
+                "https://cf.shopee.co.id/file/4aa0d559027370dbc6f57bfd3ce0f7fd",
+                "https://scontent-hel3-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/270212867_1450866718642448_523943577198469154_n.jpg?_nc_ht=scontent-hel3-1.cdninstagram.com&_nc_cat=108&_nc_ohc=EFy5rDEt8BsAX9YrSFi&edm=AABBvjUBAAAA&ccb=7-4&oh=00_AT8u5kJnbEiBmRToAVrfmzGslhO8upR08PKGBCXAYAKt2Q&oe=61D30127&_nc_sid=83d603",
+                "https://m.media-amazon.com/images/I/51xmCVNuOvL._AC_UX679_.jpg"
+            ]
+        },
+        {
+            "id": 11,
+            "title": "Cap",
+            "description": "Add a sporty touch to your look with this trendy Nike cap. Comfortable and stylish, it's perfect for everyday wear.",
+            "price": 749,
+            "rating": 4.69,
+            "installment": "0.0.24",
+            "planprice": "120",
+            "brand": "Nike",
+            "category": "outwear",
+            "images": [
+                "https://m.media-amazon.com/images/I/61iKMREydML._AC_UY1100_.jpg",
+                "http://gd3.alicdn.com/bao/uploaded/i3/1693283800/TB2vs4XbhhmpuFjSZFyXXcLdFXa_!!1693283800.jpg",
+                "https://s3.amazonaws.com/images.anaclerico.it/SP20---nike+sg---639534011.JPG",
+                "https://med-online.ru/upload/iblock/c7b/c7bf4c66a7974b73b1bb1758c2ce7d5c.jpg"
+            ]
+        },
+        {
+            "id": 12,
+            "title": "Coat",
+            "description": "Elevate your style with this luxurious Gucci coat. A perfect blend of fashion and warmth for the fashion-forward.",
+            "price": 899,
+            "topprice": 599,
+            "discountPercentage": "33",
+            "rating": 4.44,
+            "brand": "Gucci",
+            "category": "outwear",
+            "images": [
+                "https://cdni.llbean.net/is/image/wim/260347_2772_44?hei=1095&wid=950&resMode=sharp2&defaultImage=llbprod/260347_2772_41",
+                "https://clothbase.s3.amazonaws.com/uploads/f568d5b3-60e3-4826-9dfb-85d14c378653/image.jpg",
+                "https://clothbase.s3.amazonaws.com/uploads/021c2d26-97e2-4696-84a6-1da10e1888b3/image.jpg",
+                "https://cdn-images.farfetch-contents.com/14/02/43/72/14024372_18252221_600.jpg"
+            ]
+        },
+        {
+            "id": 13,
+            "title": "Sneakers",
+            "description": "Step out in comfort and style with these Adidas sneakers. Perfect for daily wear, they combine performance and trendiness.",
+            "price": 129,
+            "rating": 4.75,
+            "installment": "0.0.24",
+            "planprice": "120",
+            "brand": "Adidas",
+            "category": "shoes",
+            "images": [
+                "https://static.miinto.net/16f6d472c5116e7478673d385dcaabce.jpg?width=693&height=842",
+                "https://sportbrend.com/image/cache/catalog/products/d0/d0422f1c6a2ad09a7375a4fcdcb95038-500x500.jpg",
+                "https://golfbusinessnews.com/wp-content/uploads/2020/08/AG_Superstar_PR_1920x1080.jpg",
+                "https://thebrightestbrunette.com/wp-content/uploads/2020/11/linus-rogge-pWYpDDI4N0k-unsplash-scaled.jpg"
+            ]
+        },
+        {
+            "id": 14,
+            "title": "High Heels",
+            "description": "Make a statement with these elegant Jimmy Choo high heels. Perfect for special occasions, they exude sophistication and style.",
+            "price": 159,
+            "topprice": 99,
+            "discountPercentage": "37.51",
+            "rating": 4.88,
+            "brand": "Jimmy Choo",
+            "category": "shoes",
+            "images": [
+                "https://i.etsystatic.com/19468294/r/il/130f79/3127336783/il_fullxfull.3127336783_d4o0.jpg",
+                "https://pbs.twimg.com/media/EOkhqm-XsAAEG7o.jpg",
+                "https://sanada.club/uploads/posts/2021-09/1632850513_19-alimentola-info-p-tufli-zolushki-dzhimmi-chu-devushka-krasiv-20.jpg",
+                "https://media.jimmychoo.com/image/upload/q_auto:best,f_auto,w_1800,h_1800,c_fit/ROWPROD_PRODUCT/images/original/ROMY85VNB_0C7982_SIDE.jpg"
+            ]
+        },
+        {
+            "id": 15,
+            "title": "Running Shoes",
+            "description": "Achieve your fitness goals with these Nike running shoes. Designed for performance, they provide comfort and support for your runs.",
+            "price": 99,
+            "rating": 4.5,
+            "installment": "0.0.24",
+            "planprice": "120",
+            "brand": "Nike",
+            "category": "shoes",
+            "images": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmiW1MbtIUd8g5CGgrrTvygS6jh8_s7EbB_nUORbmCm8qM21kVYw5BZuaPcL5VL5z2-I0&usqp=CAU",
+                "https://avatars.mds.yandex.net/i?id=5d754ddda26b1b80b849a1dd1ffecdedc00afb6b-10932700-images-thumbs&ref=rim&n=33&w=480&h=222",
+                "https://www.sneakerstore.ru/upload/iblock/b3a/b3aa56fe0931179928615cc77a59eded.jpg",
+                "https://avatars.mds.yandex.net/i?id=bf55303e750e9c716281b491052a986b4126c671-10108140-images-thumbs&ref=rim&n=33&w=250&h=250"
+            ]
+        },
+        {
+            "id": 16,
+            "title": "Diamond Necklace",
+            "description": "Adorn yourself with luxury. This exquisite diamond necklace from Tiffany & Co. adds a touch of elegance to any ensemble.",
+            "price": 2499,
+            "topprice": 2199,
+            "discountPercentage": "12.73",
+            "rating": 4.95,
+            "installment": "0.0.24",
+            "planprice": "120",
+            "brand": "Tiffany & Co.",
+            "category": "jewelry",
+            "images": [
+                "https://www.moussaieff-jewellers.com/wp-content/uploads/fly-images/1855/n19327-e8756-moussaieff-jewellers-white-diamond-set-2-1-1000x1000-c.jpg",
+                "https://www.katerinaperez.com/uploads/editor_file/link/19477/The-Tiffany-Diamond.jpg",
+                "https://compass-media.vogue.it/photos/5da062856f953300083fc0ae/master/pass/The-Tiffany-Diamond_5660.jpg",
+                "https://2.bp.blogspot.com/-QN6Li_U2MoA/Ui8WrBEe_FI/AAAAAAAADBM/h26sRuHsVZs/s1600/Tiffany%2526Young4.jpg"
+            ]
+        },
+        {
+            "id": 17,
+            "title": "Gold Bracelet",
+            "description": "Elevate your wrist with this luxurious gold bracelet from Cartier. A timeless piece that complements your unique style.",
+            "price": 1899,
+            "rating": 4.7,
+            "brand": "Cartier",
+            "category": "jewelry",
+            "images": [
+                "https://manssion.com/cdn/shop/products/Gold_Rope_Bracelet_FRONT.png?v=1644013805&width=1920",
+                "https://a.1stdibscdn.com/cartier-rose-gold-ten-diamond-love-bracelet-new-screw-system-for-sale/1121189/j_48707211536386432208/4870721_master.jpg?width=768",
+                "https://watchesmaster.ru/uploads/cache/CatalogProducts/images_34656/24a6c8_h508.jpg",
+                "https://i.pinimg.com/originals/57/6d/28/576d28ea90c1acaa9063866e47717654.jpg"
+            ]
+        },
+        {
+            "id": 18,
+            "title": "Silver Earrings",
+            "description": "Add a touch of modern sophistication with these chic silver earrings from Pandora. Perfect for any occasion.",
+            "price": 129,
+            "rating": 4.4,
+            "installment": "0.0.24",
+            "planprice": "120",
+            "brand": "Pandora",
+            "category": "jewelry",
+            "images": [
+                "https://m.media-amazon.com/images/I/51zqADjthXL._AC_UY1000_.jpg",
+                "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hc3/h34/50392524062750/pandora-sarm-podveska-moments-791476c01-2-07-g-serebro-cirkonij-104672040-1.png",
+                "https://avatars.mds.yandex.net/i?id=735e8fd3bf10d62fc6530758a2b9d11396a5287f-5467645-images-thumbs&ref=rim&n=33&w=212&h=250",
+                "https://avatars.mds.yandex.net/i?id=78ed8ab6ea32bd55c2ca30e92a3aebb5df4f11cf-8710005-images-thumbs&ref=rim&n=33&w=250&h=250"
+            ]
+        },
+        {
+            "id": 19,
+            "title": "Smartwatch",
+            "description": "Stay connected and stylish with this high-tech smartwatch. Track your fitness and receive notifications on the go.",
+            "price": 299,
+            "topprice": 199,
+            "discountPercentage": "33",
+            "rating": 4.8,
+            "brand": "Samsung",
+            "category": "jewelry",
+            "images": [
+                "https://www.dcutec.com/2476-large_default/smartwatch-colorful-pink-soft-blue.jpg",
+                "https://s.s-bol.com/imgbase0/imagebase3/large/FC/6/3/4/9/9200000103709436_1.jpg",
+                "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6510/6510875cv12d.jpg",
+                "https://cdn.mos.cms.futurecdn.net/a9hF4ffWTjWtAdo2t4WQDH.jpg"
+            ]
+        },
+        {
+            "id": 20,
+            "title": "Gaming Laptop",
+            "description": "Immerse yourself in gaming with this powerful gaming laptop. High-performance graphics and a responsive keyboard for the ultimate gaming experience.",
+            "price": 1999,
+            "rating": 4.9,
+            "installment": "0.0.24",
+            "planprice": "120",
+            "brand": "ASUS",
+            "category": "laptops",
+            "images": [
+                "https://computermania-bd.b-cdn.net/wp-content/uploads/MSI-Raider-GE78HX-13VI-Gaming-Laptop-3.jpg",
+                "https://blog.soltekonline.com/content/images/2019/11/0-2.jpg",
+                "https://m.media-amazon.com/images/I/81DyoNha12L.jpg",
+                "https://s.yimg.com/uu/api/res/1.2/qLXZ_4cPDIB_9V0o5fg_4g--~B/aD0xMDAxO3c9MTYwMDthcHBpZD15dGFjaHlvbg--/https://o.aolcdn.com/images/dims?crop=1400%2C876%2C0%2C0&quality=85&format=jpg&resize=1600%2C1002&image_uri=https://s.yimg.com/os/creatr-uploaded-images/2019-04/411a9970-651d-11e9-97cf-43fcb614a4ce&client=a1acac3e1b3290917d92&signature=bee0e83f0d4f1968587b88dbc12bfef110d7e63a"
+            ]
+        },
+        {
+            "id": 21,
+            "title": "Galaxy Tab 8 Lite",
+            "description": "Discover the perfect balance between performance and affordability with the Galaxy Tab 8 Lite. Ideal for everyday tasks and entertainment.",
+            "price": 799,
+            "topprice": 699,
+            "discountPercentage": "2.73",
+            "rating": 4.1,
+            "installment": "0.0.24",
+            "planprice": "120",
+            "brand": "Samsung",
+            "category": "tablets",
+            "images": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6Vz7E1aYG0_70FPVtwAk12bLgUGiKxT1ukmNzI3VwD1-qlVFh87IF_dieDAkcWgB3F8U&usqp=CAU",
+                "https://www.kns.ru/linkpics/samsung-galaxy-tab-a7-lite-lte-sm-t225nzsaskz-4-small.jpg3",
+                "https://a.allegroimg.com/s200/116498/55bb14dd476495ad21e1277be24d/Tablet-Samsung-Galaxy-Tab-A7-Lite-32-GB-KOLORY",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSueWdzx9-RmouBsg3Gd9FII6YETocCtfBEis-nIe7BYkNfYqSnSXn2o6_Qf9HvVQIrQYU&usqp=CAU"
+            ]
+        },
+        {
+            "id": 22,
+            "title": "Diamond Tennis Bracelet",
+            "description": "Adorn your wrist with elegance and sparkle with this exquisite diamond tennis bracelet. A symbol of timeless beauty and sophistication.",
+            "price": 2999,
+            "topprice": 2499,
+            "discountPercentage": "16.67",
+            "rating": 4.9,
+            "brand": "Tiffany & Co.",
+            "category": "jewelry",
+            "images": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHeANrZA5Nyy4cxvt8v9hhqOsU5F67x4Dp_EUGNS4LAOXm6XfHWBpULYMkQDgwefE7BSY&usqp=CAU",
+                "https://johnatencio.com/cdn/shop/articles/diamond-tennis-bracelets-different-carats_512x.jpg?v=1650471262",
+                "https://happyjewelers.com/cdn/shop/products/TennisBraceletSizes_1445x.jpg?v=1697835817",
+                "https://www.tacori.com/media/catalog/product/f/b/fb665pk65_10.jpg"
+            ]
+        },        {
+            "id": 23,
+            "title": "Kids' Backpack",
+            "description": "Let your child carry their essentials in style with this colorful and durable kids' backpack. Perfect for school or outdoor adventures.",
+            "price": 39,
+            "topprice": 29,
+            "discountPercentage": "25",
+            "rating": 4.8,
+            "installment": "0.0.24",
+            "planprice": "120",
+            "brand": "JanSport",
+            "category": "kids",
+            "images": [
+                "https://target.scene7.com/is/image/Target/GUEST_dc397d6c-d0ce-42a8-a79f-f67b34cae008?wid=488&hei=488&fmt=pjpeg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5VUTcl_8F_yGYtq_HH08vQftRp3EUMlPeSVt2X41Ve603iHTku3wEDCxyqtj1reWDBhs&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJl5ew_V6imUDRlnL0cUSMUcU9sgPo3MhKRC3EEestEv6fwDRvQDXuBhHSVl5p7HeA67U&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXE7YDQlyZTiHCsNcCkDPJ56wbJ6VTfO7lCNiLbEzGilnUAyldjd_7h0M_Pim4itUnRuE&usqp=CAU"
+            ]
+        },
+        {
+            "id": 24,
+            "title": "Kids' Sneakers",
+            "description": "Keep your child's feet comfortable and stylish with these trendy kids' sneakers. Perfect for active play and everyday wear.",
+            "price": 49,
+            "rating": 4.7,
+            "brand": "Nike",
+            "category": "kids",
+            "images": [
+                "https://www.parents.com/thmb/J6dR870Y2b32KY6TrfOe3rYZUDA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/see-kai-run-robyne-sneakers-for-kids-c8423ad37bd84888858b508c808fe79a.jpg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIsTHzTxq3qWNlcW9iZ0Xh2Mbvt8KHIQ_6UbZ8jixZOl7W_jgdjIVOSgUSmpaNoGAUCo4&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIeKc0fjsTAaMv55ZZ2BDpXq-7n7S1QVl7IfJu1-5FFQTnA9LXvriAdZI1uXHu55pudFo&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwGTEwii9-p_hoMV0a1Rdxj_fL5AywJg03_xdDpmP0eX0wGV3I6a4VtYiP83nBGhCy33Q&usqp=CAU"
+            ]
+        },
+        {
+            "id": 25,
+            "title": "Kids' Play Tent",
+            "description": "Spark your child's imagination with this fun and colorful play tent. Perfect for indoor and outdoor play, providing hours of entertainment.",
+            "price": 34,
+            "rating": 4.9,
+            "installment": "0.0.24",
+            "planprice": "120",
+            "brand": "Pacific Play Tents",
+            "category": "kids",
+            "images": [
+                "https://target.scene7.com/is/image/Target/GUEST_4e99bc6f-ff7f-4c40-aa59-863262e26db0?wid=488&hei=488&fmt=pjpeg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Whyfn41h1z2q9itlKLAM_Plfo0u66EgyQfSGYsBlQhQ95SceB-aJKpmIxLlGJ8kulDY&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx-vUfrCVqFuLmJ3l88SZZKoF5wuJdXLFpspnn7eJ9FOj5Yxd7h_POdO93hOokI5fyyg4&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsL16VaYS-BE11xfAQWdWLxdyNxICr_CtIuUauRH3sFUckhoLaqDO3_dqmAFB16qKoII4&usqp=CAU"
+            ]
+        },
+        {
+            "id": 26,
+            "title": "Kids' Art Set",
+            "description": "Nurture your child's creativity with this comprehensive art set. Includes various art supplies to inspire artistic expression.",
+            "price": 29,
+            "topprice": 19,
+            "discountPercentage": "33",
+            "rating": 4.6,
+            "brand": "Crayola",
+            "category": "kids1",
+            "images": [
+                "https://img.fruugo.com/product/2/87/175555872_max.jpg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT3py6efsfB_pEwUUX6LsisknscrFE-hr1LUXDWUnRvs2VITS5rinwNTUcFI4JCIc_JBY&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYCaKZOyC38V4X71gD6eBvGecc5l7Noq1V8uky5nCSKXr5IwP8blHUn82sfMjuI-09WP0&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSQ98xcsBGZATIb46iYpF1LkKRgSlb-LlLlORhBC79aJl63mzp6oGqWh26bqM7oaxI_qs&usqp=CAU"
+            ]
+        },
+        {
+            "id": 27,
+            "title": "Kids' Bike",
+            "description": "Encourage outdoor adventures with this sturdy and colorful kids' bike. Perfect for developing balance and coordination.",
+            "price": 129,
+            "topprice": 99,
+            "discountPercentage": "23",
+            "rating": 4.8,
+            "installment": "0.0.24",
+            "planprice": "120",
+            "brand": "Schwinn",
+            "category": "kids1",
+            "images": [
+                "https://target.scene7.com/is/image/Target/GUEST_8158dbf8-df70-4560-8027-bb93e443f892?wid=488&hei=488&fmt=pjpeg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrgCgOpVKisZ1mXpH5fL4uH7Lql5TADQCIsWOvzRUCJI7cB4B_c3gxh7Dp0m3mATrKmBg&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7IbO9H96uAMkZB-gQXRP9ogd-CDTPkbV-FTeCaOMYdZr6zstD6z6TUQaM4xH9IejeysI&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqKHz2DE6HXVx6PvUzF4GgnT8vYcTO1RY4G_7YOL4hCmei1Aj0ZczL74OygojJsp9ry6k&usqp=CAU"
+            ]
+        },
+        {
+            "id": 28,
+            "title": "Kids' Scooter",
+            "description": "Get your child cruising in style with this sleek and sturdy kids' scooter. Perfect for zooming around the neighborhood.",
+            "price": 59,
+            "rating": 4.7,
+            "installment": "0.0.24",
+            "planprice": "120",
+            "brand": "Razor",
+            "category": "kids1",
+            "images": [
+                "https://5.imimg.com/data5/SELLER/Default/2021/11/GI/RU/PW/139493337/61r12dkz6is-sl1500-.jpg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOadxO6HKxfgvW8BzLMKPQNGQA22CyLo2EFA&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3CVdSkGyoNkfyO_C4x7w6WhS_SxjtsZHP1Q&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8bRknIfmEMyMEJrpgyvpUZTX6zQcKHc4hWA&usqp=CAU"
+            ]
+        },
+        {
+            "id": 29,
+            "title": "Kids' Puzzle Set",
+            "description": "Stimulate your child's mind with this engaging puzzle set. Includes various puzzles to challenge and entertain.",
+            "price": 19,
+            "topprice": 14,
+            "discountPercentage": "25.02",
+            "rating": 4.5,
+            "installment": "0.0.24",
+            "planprice": "120",
+            "brand": "Melissa & Doug",
+            "category": "kids2",
+            "images": [
+                "https://www.webby.toys/cdn/shop/files/81Cz2Yxz2tL._SL1500.jpg?v=1683972927&width=1080",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkTICpDspW2y7njmSn-U8GO-60rR58lAjh0VcDBFHr_VA_iaGSTHr1YTgUlNo5ATO7aQ4&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6aVWN-uPCtWAXR4DmC_sCzr6vIbh5NEslYLAd-2WQgydf9ISEfqov8Gmbp81dQn76ugA&usqp=CAU",
+                "https://f.nooncdn.com/p/pzsku/ZFB5D832D7F45E5983C88Z/45/_/1681727370/ef61b779-7577-4b8d-9c6c-39b6e6a665b6.jpg?format=jpg&width=240"
+            ]
+        },
+        {
+            "id": 30,
+            "title": "Kids' Electric Toothbrush",
+            "description": "Make brushing fun and easy for your child with this electric toothbrush featuring their favorite characters. Helps promote good dental hygiene habits.",
+            "price": 24,
+            "rating": 4.6,
+            "installment": "0.0.24",
+            "planprice": "120",
+            "brand": "Oral-B",
+            "category": "kids2",
+            "images": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNgUE29ZWs0UbLkQqhW9K2_TEj8uYNpdt7hrxvnlonKi7gLmtq6sxiB1PVqiGgxn8et5A&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQorUEP6tRMSVyyGAm7uZ-yyfYFg6y17Z0NyTPbr5JcxB_A0_gp8qT2gEHzURVRg1onKBY&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8ZnvcxE6Y0q_7u8df2fMlNK8I_tmF8ARTXI7DEwyOkIyxdcm1wTvMRdaRgZZDOZ3h-8U&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn4gWFm1y_MAT8FoBdNqTGploFSPUEYzTMehySyOSIjzUYPolATLwrDwjyorCgGCpnpuQ&usqp=CAU"
+            ]
+        },
+        {
+            "id": 31,
+            "title": "Kids' Watch",
+            "description": "Teach your child to tell time with this fun and colorful kids' watch. Features their favorite characters and is durable for everyday wear.",
+            "price": 29,
+            "topprice": 24,
+            "discountPercentage": "16",
+            "rating": 4.7,
+            "installment": "0.0.24",
+            "planprice": "120",
+            "brand": "VTech",
+            "category": "kids2",
+            "images": [
+                "https://m.media-amazon.com/images/I/61KVjuRPFTL._AC_UF894,1000_QL80_.jpg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6Cv_JJeLczsSrC4T8oDq8NmeE2-7RczUAXYSsO1m2aninwl2POS_ILGtE2V_gekL4dPY&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5KN8jUuEkL-e8G3V-oTsWyD1s6mmuZBHAGj_a0iBWWwvoTUsmC5hGKxmuyryPIf_adOU&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSRGKpwVquwfq7iW6Zo_FCur6CCmDGrRzQoZrGzzD9nPIJiiGyIHoiSMEquyvzdibONbg&usqp=CAU"
+            ]
+        },
+        {
+            "id": 32,
+            "title": "Kids' Tablet",
+            "description": "Provide your child with educational entertainment with this kids' tablet. Preloaded with games, apps, and parental controls for safe browsing.",
+            "price": 99,
+            "rating": 4.5,
+            "brand": "Amazon Fire",
+            "category": "kids2",
+            "images": [
+                "https://contixo.com/cdn/shop/products/V10__2_Purple.png?v=1692117687",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuDDQwF5w9FIzHR3jXRaC9DLIC08GtccPV8d-JCV7jm8s0d34i-zHSQU7Gv4iyp1xXRTg&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6NI8TsfPzWUuTtmhqDKcuhUwtya__gBtDvwoEFF28G9LwKqlgiMqIFz1ZKa6PJCfI3Hc&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDz9eUrgYJDANSwarJqrde-EYGz4ppcaROcBxJHdgpCM9GgpauScrqgHomS0xkK5nOqHU&usqp=CAU"
+            ]
+        },
+        {
+            "id": 33,
+            "title": "Kids' Sleeping Bag",
+            "description": "Make sleepovers and camping trips cozy and comfortable with this kids' sleeping bag. Features a fun design and is easy to roll up and transport.",
+            "price": 39,
+            "rating": 4.8,
+            "installment": "0.0.24",
+            "planprice": "120",
+            "brand": "Coleman",
+            "category": "kids2",
+            "images": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSimT-lCCI2d264mJ9FJBgPd-ClMFqGYjEHbQ&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrh6CFwOBpn-_OlkfNhTOeDz0TSY70HO1KhIGtXUa9vp1tfiWISH70EXrNKTVwJ_IhzwA&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfj94ityiCix3pR_6EErfIFO5RAzouOgFoHeLoozZBs02tM0S_eDvBbhBO16imsMNWlnE&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFmKwpQldZ374SXjipIS8UVak22Z2OT92rbFzsSwc-VkwntRGvw34dnY-7Fpe0gcaAzXw&usqp=CAU"
+            ]
+        },{
+            "id": 34,
+            "title": "Organic Avocado",
+            "description": "Fresh organic avocados, perfect for salads, sandwiches, or guacamole.",
+            "price": 1,
+            "rating": 4.9,
+            "brand": "Organic Farms",
+            "category": "food",
+            "images": [
+                "https://ripeme.com/wp-content/uploads/RF-10011-RIPE-ORGANIC-ORGANIC-AVOCADO.jpg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQINBsYshsKfMQur45mM450i12Tvt7GEV4yjj7u8EJxUnYuJVJPXgsyzc1Iejb_4CyUpMw&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjMPt7ufLX1qTzween8DjYr83bfKXEmHjR9woJRkPSIcSrTyLb1vnzzh-OUysiEOMiqzk&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTWPVUZmyg7s73f53zXGAnY6yegYLyxmOwKeg-iKFYHhJTyaVHMpbkSLnCGiRyioNvQrc&usqp=CAU"
+            ]
+        },
+        {
+            "id": 35,
+            "title": "Organic Strawberries",
+            "description": "Juicy organic strawberries, great for snacking, desserts, or smoothies.",
+            "price": 3,
+            "rating": 4.8,
+            "installment": "0.0.24",
+            "planprice": "120",
+            "brand": "Organic Farms",
+            "category": "food",
+            "images": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo6fqCwGJx28fXKYehamuKwTjb1F16DyAHF3MFR22Pmf39oLuMIEOh8RiCLqwNepE6mrc&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHVOByiAmJlDrv2T5sCOchhK6thhRYbzJ-fSP_pRUDetTFo0eqI8cGn_Yj5gB3YOZ6QFE&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR4n5L94wVNHVQOO-6_JJNGGzt3iN0NqG12f2SvdYTALbDZuZUD1IIOtbYRp5KtijqL8k&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjoebcBYaQobpEHUA8l2FbJFt180TnrXwfuqzRIxNoa_iGoCatSIjv3NhvuL2Bg6dg0Io&usqp=CAU"
+            ]
+        },
+        {
+            "id": 36,
+            "title": "Organic Kale",
+            "description": "Fresh organic kale, packed with nutrients and perfect for salads, soups, or smoothies.",
+            "price": 2.49,
+            "rating": 4.7,
+            "installment": "0.0.24",
+            "planprice": "120",
+            "brand": "Organic Farms",
+            "category": "food",
+            "images": [
+                "https://ripeme.com/wp-content/uploads/RV-10038-RIPE-ORGANIC-ORGANIC-KALE.jpg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS16fH8_vSJDR8Y5hQSfywfWWMUcuA2Fm8q9ZcG5o8by5YtnjdsuVJtwLoE7Q9dxGL27k&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpW5-YJ9EWhnYeh5T_pnCWVTYaJeL8k4EKddPnbdCNc255E1OvNJI9apC0eELratJfpLc&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbVc221TZxEhj1u13kJ--E6AuKJbkSHx_H5EkvbbMFpXCjq6tdVyOBQPHm0LYMh4Hu824&usqp=CAU"
+            ]
+        },
+        {
+            "id": 37,
+            "title": "Organic Blueberries",
+            "description": "Sweet organic blueberries, perfect for snacking, baking, or adding to cereals.",
+            "price": 4,
+            "rating": 4.8,
+            "brand": "Organic Farms",
+            "category": "food",
+            "images": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd-43uyjSd-GcIkJjvTpnY9p8ekOd1zXZ598zD2s0goLuKVG_2U7_g0ssCuC-5KHQMNmU&usqp=CAU",
+                "https://assets.wakefern.com/is/image/wakefern/483638976?$Mi9Product_detail$",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCB8vAQVHsQuIpT2mZPZwxgQmguWprWnAiFnSOKwxuX_hfllHZGUYGZM9AyI5ZAnaUljo&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiXPDj9UuWX6ncGtIf1G-QjR3R9OhzNgiGdv1DpAX2jkOpqkObJrYI3_8u-EKIRMkA34g&usqp=CAU"
+            ]
+        },
+        {
+            "id": 38,
+            "title": "Organic Apples",
+            "description": "Crisp and juicy organic apples, great for snacking, baking, or making applesauce.",
+            "price": 2,
+            "rating": 4.7,
+            "installment": "0.0.24",
+            "planprice": "120",
+            "brand": "Organic Farms",
+            "category": "food",
+            "images": [
+                "https://theproduceguyz.com/cdn/shop/products/image_38f13c69-1f3b-4a3f-86d5-14a06180efa8.jpg?v=1603080352",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBnbpUzbKZoq3LZUbvQhUUlBLOGpn9AnvFQ5srZtWqyJ3-AQIcYwl_qckqXqRAXNR25To&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTrmm0bjvFFV3vzB1gDbM2osnEk-EkQONAEqr83pIAuUPGmYiTHe3K89Wd1A7fJghMmOE&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvvYS1rcD8GnYaLwkApPxTacYeHgLBc35TwgCgeU2cXP1DcFGIjh1eXW8sufKsJT_5s1s&usqp=CAU"
+            ]
+        },
+        {
+            "id": 39,
+            "title": "Organic Bananas",
+            "description": "Organic bananas, perfectly ripe and ready to eat. Great for snacking or adding to smoothies.",
+            "price": 1.49,
+            "rating": 4.6,
+            "brand": "Organic Farms",
+            "category": "food",
+            "images": [
+                "https://i5.walmartimages.com/seo/Marketside-Fresh-Organic-Bananas-Bunch_4b15d1c6-03e7-489b-96cb-7d4b1edeb927.042464e5bc52fa0421f255d04ec525a4.jpeg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU8ag6Pf3KALV9Z7kFSUU1rJmIGz_VNXSkEnt8WqemSdvf65lyqy7TRONXvJ0RlGVve4I&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrFat44ApphX_vkhgo2OwGU6FTTlIMf4VIhpDKd48DUnkHkz8TuHCHhtRNYfYV84iFiYI&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLh0rEi1parmkAHlc1M10uorIOT2FFUlpR8lydeHNmt4rhx8RPBADdK4xWERe6wVdjOo0&usqp=CAU"
+            ]
+        },
+        {
+            "id": 40,
+            "title": "Organic Carrots",
+            "description": "Fresh organic carrots, perfect for snacking, salads, or roasting.",
+            "price": 1,
+            "rating": 4.7,
+            "brand": "Organic Farms",
+            "category": "food",
+            "images": [
+                "https://www.brothersproducewholesale.com/cdn/shop/files/1-Carrots-1_1200x1200.jpg?v=1682614878",
+                "https://cdn0.woolworths.media/content/wowproductimages/large/117381.jpg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgni3WbNq6o0uPr5T4-h0KqzzpjCKPKxyHQSskeqv83GcHDr8nLd2IsbHz6kTPEesTHtA&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpjv6rS3ySLHKyx2Db0hnZBRzGn5Szui1012k1OwD4RocbC5cjNAxglKeeQVuH2UUJROI&usqp=CAUU"
+            ]
+        },
+        {
+            "id": 41,
+            "title": "Organic Tomatoes",
+            "description": "Juicy organic tomatoes, perfect for salads, sandwiches, or sauces.",
+            "price": 2.49,
+            "rating": 4.6,
+            "installment": "0.0.24",
+            "planprice": "120",
+            "brand": "Organic Farms",
+            "category": "food",
+            "images": [
+                "https://www.tmf.or.tz/wp-content/uploads/2019/12/p3.jpg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqFHCaUwOV2eWE-bIBkyMlmoC6YhzoVZcDfBjlacOxfpXBfmBkrOwyYjb8HdCK60DYibw&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThmrrWz7w18uRc1vkBowmyV4cOWyc0iKi29DI6Mvrhwm9IG21dIJmrewk8l8T7XZ9CPWI&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ172IAjpPvj3Q2JbH2yfIcLmNnQXd5rRJUXTSVIet3tADZxQvNnV_BPR-_ofAgZJgXBH0&usqp=CAU"
+            ]
+        },
+        {
+            "id": 42,
+            "title": "Organic Spinach",
+            "description": "Fresh organic spinach, packed with vitamins and minerals. Great for salads, smoothies, or sautéing.",
+            "price": 2,
+            "rating": 4.7,
+            "brand": "Organic Farms",
+            "category": "food",
+            "images": [
+                "https://www.lemonfarm.com/pub/media/catalog/product/cache/c6883f60e4bd6d89f60a2acac3620c6b/1/9/19509_19509_1.png",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKMNU_u0iYJLwSQDY4dKhxSRPDA1_RoZlXLB-dlf48k_CI5v3VGeaMcs6V4p5FRSbkbqo&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6BoX1q5l155LorCfvBXLb02gzDtylwAeLGnPPNF7-batks1KjNjiE3F1YJPnD0qmkj44&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE08gazgcc4JLRytL6SU0QOp7lZgQGgR149N0y97_rkM_VAuyttF23aCLlpS9PuoPx1_g&usqp=CAU"
+            ]
+        },
+        {
+            "id": 43,
+            "title": "Organic Broccoli",
+            "description": "Fresh organic broccoli, rich in antioxidants and fiber. Great for steaming, roasting, or stir-frying.",
+            "price": 2.49,
+            "rating": 4.6,
+            "installment": "0.0.24",
+            "planprice": "120",
+            "brand": "Organic Farms",
+            "category": "food",
+            "images": [
+                "https://organicandreal.com/cdn/shop/products/organic-broccoli-500x500_cdd7b113-732c-458d-93af-6cfa3bd4e9bd.jpg?v=1623050857",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBEUc_N_s-MBsOXBplKAcX0dg4dKAflE4dW4Ord6A8NV5KIy3XDms0uNr427CJ4BDtXB8&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBykJjjFQ260JBkFNi18giB6yru7rCejsUX4yPV98GoyEsoCHCCX08Ap5aVEKXjM1PY8c&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgvnwz0Mwl4bBZiYNeZz2lK1Wio2qOtbl_GRSj39rBCzm3DGSPig6bPJZoxW9Fp7550vg&usqp=CAU"
+            ]
+        }    
+    ]
+}

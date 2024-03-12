@@ -1,0 +1,161 @@
+.card_content{
+    width: 220px;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+}
+.card_item{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.root_1{
+    width: 150px;
+    height: 55%;
+    display: flex;
+    align-items: start;
+    margin-top: -30px;
+}
+.root_1 img{
+    width: 150px;
+    height: 100%;
+}
+
+.root_2{
+    width: 190px;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.item_btns{
+    width: 195px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.item_btn{
+    min-width: 80px;
+    height: 20px;
+    color: #fff;
+    border-radius: 9px;
+    border: none;
+    text-align: center;
+    font-weight: 500;
+    font-size: 13px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.item_xbtn{
+    min-width: 80px;
+    height: 20px;    background-color: rgb(207, 8, 177);
+    color: #fff;
+    border-radius: 6px;
+    border: none;
+    text-align: center;
+    font-weight: 500;
+    font-size: 13px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.item_btn .btn{
+    width: 45%;
+    height: 100%;
+    border: none;
+    background: linear-gradient(89deg,rgb(255, 64, 0)  99.1%, rgb(207, 8, 177) 99.999%);
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    color: #fff;
+}
+.item_btn .btn2{
+    width: 55%;
+    height: 100%;
+    border: none;
+    background: linear-gradient(87deg,rgb(255, 64, 0)  0%, rgb(207, 8, 177) 25%);
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    color: #fff;
+}
+.item_btn2{
+    width: 90px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 6px;
+    border: none;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    background: linear-gradient(99.02deg, rgb(255, 132, 0) 26.76%, rgb(253, 0, 0) 90.73%);
+}
+.root_2 .title{
+    width: 210px;
+    border: none;
+    border-radius: 5px;
+    background-color: #DBDBDB;
+    color: #202020;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+}
+.icon_like{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.box{
+    width: 70px;
+    height: 30px;
+    background-color: yellow;
+    position: absolute;
+    margin-left: -20px;
+    border-radius: 45px;
+    text-align: center;
+    color: red;
+    font-weight: 700;
+}
+.box1{
+    width: 42px;
+    height: 18px;
+    background-color: rgb(255, 64, 0);
+    position: absolute;
+    margin-left: -80px;
+    margin-top: 50px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    font-size: 12px;
+}
+.box2{
+    width: 70px;
+    height: 35px;
+    position: absolute;
+    margin-left: -20px;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    font-weight: 700;
+}

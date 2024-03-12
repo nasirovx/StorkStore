@@ -1,0 +1,170 @@
+.search_input_container {
+  position: relative;
+}
+
+.search_input {
+  padding: 10px 40px 10px 10px;
+  border: 2px solid rgb(207, 8, 177);
+  border-radius: 25px;
+  width: 600px;
+  height: 40px;
+  outline: none;
+}
+
+.search_icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: rgb(207, 8, 177);
+}
+
+.header {
+  background-color: white;
+  height: 280px;
+  width: 100%;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 50px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  margin-right: -100px;
+}
+
+.link>* {
+  margin-right: 50px;
+}
+
+.form_control {
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.search_bar {
+  display: block;
+  margin-top: -20px;
+}
+
+.search_container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.active {
+  background-color: rgb(207, 8, 177);
+  width: 110px;
+  height: 40px;
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.active:active {
+  background-color: rgb(126, 7, 108);
+}
+
+.comeIn {
+  width: 100px;
+  height: 35px;
+  background-color: rgb(207, 8, 177);
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.comeIn:active {
+  background-color: rgb(126, 7, 108);
+}
+
+.logoLink img {
+  max-width: 200%;
+  max-height: 110%;
+}
+
+.nav_content {
+  margin-right: 100px;
+}
+
+.nav_links {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: inherit;
+  color: black;
+}
+.navigation a:hover {
+  color: rgb(222, 61, 21);
+}
+
+.comeIn a {
+  color: #fff;
+}
+.comeIn a:hover {
+  color: #fff;
+}
+
+.redLogoutIcon {
+  color: red;
+  cursor: pointer;
+}
+.count1{
+  width: 13px;
+  height: 14px;
+  background-color: rgba(0, 0, 0, 0.891);
+  border-radius: 100%;
+  position: absolute;
+  margin-top: -30.5px;
+  margin-left: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 11px;
+}
+.count2{
+  width: 13px;
+  height: 14px;
+  background-color: rgb(255, 118, 32);
+  border-radius: 100%;
+  position: absolute;
+  margin-top: -11px;
+  margin-left: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 11px;
+}
