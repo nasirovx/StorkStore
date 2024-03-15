@@ -15,18 +15,11 @@ const Footer = () => {
               <a className={s.link} href='/basket'>Basket</a>
               <a className={s.link} href="/Stock">Stock</a>
             </span>
-            {/* <span className={s.nav_content}>
-              <a className={s.link} href='/card'>Favorites</a>
-              <a className={s.link} href="/service">Services</a>
-              <a className={s.link} href='/basket'>Basket</a>
-              <a className={s.link} href="/Stock">Stock</a>
-            </span> */}
           </div>
           <div className={s.footer_logo}>
             <div className={s.logo_container}>
               <img src={Logo} alt="" className={s.logo} />
               <div className={s.logo_text}>
-                {/* <span>SPARK SPACE</span> */}
               </div>
             </div>
           </div>
@@ -39,7 +32,7 @@ const Footer = () => {
             <QRCode
               size={90}
               value={"https://www.youtube.com/"}
-              bgColor="#85dcfd"
+              bgColor="none"
               fgColor="black"
               level="Q"
             />
@@ -49,7 +42,6 @@ const Footer = () => {
         </div>
         <hr className={s.footer_hr} />
         <div className={s.footer_txt}>
-          {/* <div className={s.footer_txt1}><h4>2024</h4></div> */}
           <span className={s.footer_text}>© ALTYNAI \ BEKASTAN \ ALINA \ KHUZAIFULLA \ AKMARAL \ SAHJARBEK \ ZARINA </span>
           <div className={s.footer_txt2}><h4>BY ITC BOOTCAMP — 2024</h4></div>
         </div>

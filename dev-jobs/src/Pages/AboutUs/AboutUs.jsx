@@ -35,17 +35,11 @@ const AboutUs = () => {
     }
   };
 
-  useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
+
 
 
   return (
     <div className={s.container}>
-      <img ref={photoRef} className={s.element1} src={Photo} alt="" />
       <div className={s.aboutUsBegin}>
         <img className={s.imgBuild} src={Building} alt="" />
         <div className={s.elemAboutUs}>

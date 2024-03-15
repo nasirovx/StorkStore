@@ -6,7 +6,6 @@ import Cloth from '../Cloth/Cloth';
 import Sale from '../Sale/Sale';
 import Kids from '../Kids/Kids';
 import Meal from '../Meal/Meal';
-import { SearchCart } from '../../Redux/Slices/cartSlice';
 import Login from '../Login/Login';
 import Card from '../Card/Card';
 import AboutUs from '../AboutUs/AboutUs';
@@ -16,6 +15,7 @@ import Registration from '../Registration/Registration';
 import ProductInfo from '../../Components/Product-info/Product-info';
 import { useDispatch } from 'react-redux'
 import products from '../../data/data.json'
+import Contacts from '../../Components/Contacts/Contacts';
 import { fetchAuthMe } from '../../Redux/Slices/auth';
 import { fetchProducts, fetchPosts } from '../../Redux/Slices/ProductSlice';
 import CartPage from '../../Components/cartPage/cartPage';
@@ -42,8 +42,8 @@ const Main = () => {
         <Route path='/card' element={<Card />} />
         <Route path='/cart' element={<CartPage />} />
         <Route path='/posts' element={<Post />} />
+        <Route path='/contacts' element={<Contacts />} />
         <Route path='/aboutUs' element={<AboutUs />} />
-        <Route path='/search' element={<SearchCart />} />
         <Route path='/posts/:id/edit' element={<ChangePost />} />
         <Route path="/info/:id/:title" element={<ProductInfo products={products} />} />
         <Route path="/login" element={<Login/>}/>

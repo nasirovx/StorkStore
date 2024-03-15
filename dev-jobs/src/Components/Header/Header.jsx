@@ -7,7 +7,6 @@ import { useDispatch, useSelector } from 'react-redux';
 import { selectIsAuth, logout } from '../../Redux/Slices/auth';
 import SearchIcon from '@mui/icons-material/Search';
 import LogoutIcon from '@mui/icons-material/Logout';
-import { SearchCart } from '../../Redux/Slices/cartSlice';
 import LocalMallIcon from '@mui/icons-material/LocalMall';
 
 const Header = () => {
@@ -20,12 +19,15 @@ const Header = () => {
   const dispatch = useDispatch();
 
   const handleSubmit = (e) => {
-    e.preventDefault()
+    e.preventDefault();
     console.log("input>>>", input);
-    navigate("/search")
-    const newList = products.products.filter((elem) => elem.title.toLowerCase().indexOf(input.toLowerCase()) > -1);
-    dispatch(SearchCart(newList));
+    const product = data.find(product => product.title === input);
+    if (product){
+    navigate(`/info/${product.id}/${product.title}`);
+    }
+    setInput("")
   };
+  
   const isAuth = useSelector(selectIsAuth);
 
   const onClickLogout = () => {
@@ -34,7 +36,7 @@ const Header = () => {
       window.localStorage.removeItem('token', '');
     }
   };
-  const itemCount = data.filter(item => item.user._id === userData?._id).length;
+  const itemCount = userData ? data.filter(item => item.user && item.user._id === userData._id).length : 0;
 
   return (
     <div className={s.header}>

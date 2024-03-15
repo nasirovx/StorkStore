@@ -6,16 +6,12 @@ const initialState = {
   items: products.products,
   totalQuantity: 0,
   totalPrice: 0,
-  searchCart: []
 };
 
 const cartSlice = createSlice({
   name: "cart",
   initialState,
   reducers: {
-    SearchCart: (state, action) => {
-      state.searchCart = action.payload
-    },
     addToCart: (state, action) => {
       let find = state.cart.findIndex((item) => item.id === action.payload.id);
       if (find >= 0) {
@@ -74,7 +70,6 @@ export const {
   addToCart,
   getCartTotal,
   removeItem,
-  SearchCart,
   increaseItemQuantity,
   decreaseItemQuantity,
 } = cartSlice.actions;

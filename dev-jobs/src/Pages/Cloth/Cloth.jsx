@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux';
 import ListItem from '../../Components/List-item/List-item';
 import ProductItem from '../../Components/Product-item/Product-item';
 
-const Smart = () => {
+const Cloth = () => {
   const items = useSelector((state) => state.allCart.items);
   const [text, setText] = useState('outwear');
   const [text2, setText2] = useState("shoes");
@@ -60,4 +60,4 @@ const Smart = () => {
   );
 };
 
-export default Smart;
+export default Cloth;

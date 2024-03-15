@@ -1,0 +1,37 @@
+.Contacts{
+    margin-top: 50px;
+}
+
+.contactInformation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+   
+    
+}
+.titleContact{
+color: rgb(207, 8, 177);
+font-family: "Madimi One", sans-serif;
+}
+
+.ContactInformation{
+    color: rgb(207, 8, 177);
+    font-family: "Madimi One", sans-serif;
+    margin-bottom: 20px;
+}
+.contactIcon {
+    display: flex;
+  align-items: center;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 30px;
+    border: 2px solid rgb(207, 8, 177) ;
+    border-radius: 20px;
+}
+
+.contactIcon a {
+   
+    margin: 0 40px;
+    color:rgb(207, 8, 177) ;
+}

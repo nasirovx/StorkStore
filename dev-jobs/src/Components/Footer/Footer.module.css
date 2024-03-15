@@ -1,8 +1,7 @@
 .footer {
     width: 100%;
-    height: auto;
-    background: rgb(26,64,197);
-    background: radial-gradient(circle, rgba(26,64,197,0.8465511204481793) 0%, rgba(99,212,255,1) 100%);
+    height: auto;background: rgb(145,63,251);
+    background: radial-gradient(circle, rgba(145,63,251,0.9836309523809523) 0%, rgba(241,70,252,1) 100%);
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -100,19 +99,14 @@
 
 
 
-.link {
-    text-decoration: none;
-    color: black; 
-
+.link:hover {
+    color: #fff;
   }
 
   .link {
+    transition: 0.2s;
     text-decoration: none; 
     color: black; 
     font-family: 'Arial', sans-serif; 
     font-size: 18px; 
-  }
-
-  .footer_txt1{
-   
   }
